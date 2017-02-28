@@ -1,4 +1,4 @@
-#~~ NMSMasterMod
+# NMSMasterMod
 This is basically a merged mod of some of the most popular No Man's Sky Mods.  I will do my best to keep it up to date but if you have a mod included in this or want to help in any way please feel free to submit a pull request.
 
 # Included Mods

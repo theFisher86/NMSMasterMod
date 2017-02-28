@@ -14,8 +14,11 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
  * **New Mods** by **YOU** *And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code.*
  
+ # How to install
+ Don't download each mod separately.  Just go to the [Releases]() page and download the most recent release and place it in your No Man's Sky MODS folder.  If any of the included mods are in your mods folder you should remove them.
+ 
  # How to submit your mod / update your mod
  1.) Submit a pull request onto this GitHub with your **unpacked** mod.  Please make sure to include all the exml files (unless they're new custom models with a non-vanilla name) in addition to the MBINs.  That'll make it easier to compare.
  2.) The pull request will be reviewed for conflicts, if there are no conflicts it will be added into the mod with no further issues.
- 3.) If there **are** conflicts they will need resolved via the usual Git methodology.  It is important to note that existing accepted code will most likely not be removed.  However if you're mod is just changing something that is in the same file as another existing mod and the current code is vanilla and your code is new that'll be accepted.
+ 3.) If there **are** conflicts they will need resolved via the usual Git methodology.  It is important to note that existing accepted code will most likely not be removed.  However if you're mod is just changing something that is in the same file as another existing mod and the current code is vanilla and your code is new that'll be accepted.  Take a look at the [commit for Alien Structures](https://github.com/theFisher86/NMSMasterMod/commit/153cb5a539bbd644c2a1d34572d433fecee3439b) for an example.
  

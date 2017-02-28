@@ -1,4 +1,4 @@
-# NMSMasterMod
+#~~ NMSMasterMod
 This is basically a merged mod of some of the most popular No Man's Sky Mods.  I will do my best to keep it up to date but if you have a mod included in this or want to help in any way please feel free to submit a pull request.
 
 # Included Mods
@@ -11,7 +11,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  * [Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-foundation-edition/) by 03woodm
  * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * [Dark Space](https://nomansskymods.com/mods/dark-space-foundation-update/) by jeveir
- * [Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral
+ * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
  * **New Mods** by **YOU** *And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code.*
  
  # How to submit your mod / update your mod

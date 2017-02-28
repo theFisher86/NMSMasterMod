@@ -22,7 +22,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  2.) The pull request will be reviewed for conflicts, if there are no conflicts it will be added into the mod with no further issues.
  3.) If there **are** conflicts they will need resolved via the usual Git methodology.  It is important to note that existing accepted code will most likely not be removed.  However if you're mod is just changing something that is in the same file as another existing mod and the current code is vanilla and your code is new that'll be accepted.  Take a look at the [commit for Alien Structures](https://github.com/theFisher86/NMSMasterMod/commit/153cb5a539bbd644c2a1d34572d433fecee3439b) for an example.
  
-#ToDo
+# ToDo
 - [x] Create splash banner to show included mods, mod authors and title during startup.
 - [ ] Write a script to check for mod updates and send notifications when mods are updated to make sure that they're updated here as well.
 - [ ] Build GitHub Pages site with pretty formatting and whatnot.

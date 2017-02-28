@@ -12,7 +12,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * [Dark Space](https://nomansskymods.com/mods/dark-space-foundation-update/) by jeveir
  * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
- * **New Mods** by **YOU** *And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code.*
+ * __New Mods__ by __YOU__ _And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code._
  
 # How to install
  Don't download each mod separately.  Just go to the [Releases](https://github.com/theFisher86/NMSMasterMod/releases/) page and download the most recent release and place it in your No Man's Sky MODS folder.  If any of the included mods are in your mods folder you should remove them.

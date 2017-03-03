@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (1.13.2)-->
 <Data template="GcRewardTable">
   <Property name="Table">
     <Property value="GcRewardTableEntry.xml">
@@ -69,13 +70,6 @@
               </Property>
               <Property name="LabelID" value="" />
             </Property>
-  		    <Property value="GcRewardTableItem.xml">
-			  <Property name="PercentageChance" value="100" />
-			  <Property name="Reward" value="GcRewardSpecificProductRecipe.xml">
-			    <Property name="Id" value="BASE" />
-			  </Property>
-			  <Property name="LabelID" value="" />
-		    </Property>
           </Property>
         </Property>
         <Property name="Medium" value="GcRewardTableItemList.xml">
@@ -2038,6 +2032,32 @@
             <Property name="Reward" value="GcRewardMoney.xml">
               <Property name="AmountMin" value="0" />
               <Property name="AmountMax" value="0" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property value="GcGenericRewardTableEntry.xml">
+      <Property name="Id" value="REW_BUILDPRINTS" />
+      <Property name="Common" value="GcRewardTableItemList.xml">
+        <Property name="EntitlementLinked" value="False" />
+        <Property name="EntitlementId" value="" />
+        <Property name="RewardChoice" value="GiveAll" />
+        <Property name="List">
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="100" />
+            <Property name="Reward" value="GcRewardMultiSpecificProductRecipes.xml">
+              <Property name="ProductIds">
+                <Property value="NMSString0x10.xml">
+                  <Property name="Value" value="MOBILESHOP" />
+                </Property>
+                <Property value="NMSString0x10.xml">
+                  <Property name="Value" value="MOBILEBASE" />
+                </Property>
+              </Property>
+              <Property name="DisplayProductId" value="MOBILESHOP" />
+              <Property name="SetName" value="BLUEPRINT_AWARD_" />
             </Property>
             <Property name="LabelID" value="" />
           </Property>
@@ -7094,9 +7114,14 @@
             <Property name="Reward" value="GcRewardSpecificShip.xml">
               <Property name="ShipResource" value="GcResourceElement.xml">
                 <Property name="Filename" value="MODELS/COMMON/SPACECRAFT/FIGHTERS/FIGHTER_PROC.SCENE.MBIN" />
-                <Property name="Seed" value="-8174559354674307366" />
-                <Property name="UseSeedValue" value="True" />
+                <Property name="Seed" value="GcSeed.xml">
+                  <Property name="Seed" value="-8174559354674307366" />
+                  <Property name="UseSeedValue" value="True" />
+                </Property>
                 <Property name="AltId" value="" />
+                <Property name="ProceduralTexture" value="TkProceduralTextureChosenOptionList.xml">
+                  <Property name="Samplers" />
+                </Property>
               </Property>
               <Property name="ShipLayout" value="GcInventoryLayout.xml">
                 <Property name="Slots" value="15" />
@@ -7350,9 +7375,14 @@
             <Property name="Reward" value="GcRewardSpecificShip.xml">
               <Property name="ShipResource" value="GcResourceElement.xml">
                 <Property name="Filename" value="MODELS/COMMON/SPACECRAFT/FIGHTERS/FIGHTER_PROC.SCENE.MBIN" />
-                <Property name="Seed" value="-4266666232903262234" />
-                <Property name="UseSeedValue" value="True" />
+                <Property name="Seed" value="GcSeed.xml">
+                  <Property name="Seed" value="-4266666232903262234" />
+                  <Property name="UseSeedValue" value="True" />
+                </Property>
                 <Property name="AltId" value="" />
+                <Property name="ProceduralTexture" value="TkProceduralTextureChosenOptionList.xml">
+                  <Property name="Samplers" />
+                </Property>
               </Property>
               <Property name="ShipLayout" value="GcInventoryLayout.xml">
                 <Property name="Slots" value="15" />

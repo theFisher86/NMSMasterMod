@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (1.13.2)-->
 <Data template="GcBaseBuildingTable">
   <Property name="LegModel" value="TkModelResource.xml">
     <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/BUILDABLEPARTS/FOUNDATIONLEG.SCENE.MBIN" />
@@ -2045,6 +2046,84 @@
       <Property name="RemoveGrass" value="True" />
     </Property>
     <Property value="GcBaseBuildingEntry.xml">
+      <Property name="ID" value="MOBILEBASE" />
+      <Property name="Model" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/BUILDABLEPARTS/DEFAULTROOM.SCENE.MBIN" />
+      </Property>
+      <Property name="Type" value="GcBaseBuildingObjectTypes.xml">
+        <Property name="BaseBuildingObjectType" value="BuildingFoundation" />
+      </Property>
+      <Property name="DecorationType" value="GcBaseBuildingObjectDecorationTypes.xml">
+        <Property name="BaseBuildingDecorationType" value="Normal" />
+      </Property>
+      <Property name="Biome" value="GcBiomeType.xml">
+        <Property name="Biome" value="Lush" />
+      </Property>
+      <Property name="BuildableOnBase" value="True" />
+      <Property name="BuildableOnFreighter" value="False" />
+      <Property name="BuildableOnPlanet" value="True" />
+      <Property name="GlobalLimit" value="0" />
+      <Property name="SystemLimit" value="0" />
+      <Property name="PlanetLimit" value="0" />
+      <Property name="RegionLimit" value="1" />
+      <Property name="PerBaseLimits">
+        <Property value="5" />
+        <Property value="0" />
+      </Property>
+      <Property name="CollisionRadiusFactor" value="1" />
+      <Property name="CheckCollision" value="False" />
+      <Property name="CollidesWithPlayer" value="True" />
+      <Property name="CanPlaceOnItself" value="True" />
+      <Property name="Group" value="ROOMS" />
+      <Property name="DontStore" value="False" />
+      <Property name="CameraRotDeg" value="0" />
+      <Property name="ComplexityCost" value="0" />
+      <Property name="ForceExtraIdx" value="-1" />
+      <Property name="SnappingLimit" value="0" />
+      <Property name="GroupSnappingLimit" value="0" />
+      <Property name="Hint" value="" />
+      <Property name="RemoveGrass" value="True" />
+    </Property>
+    <Property value="GcBaseBuildingEntry.xml">
+      <Property name="ID" value="MOBILESHOP" />
+      <Property name="Model" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/TERMINAL/TERMINAL_TADINGPOST.SCENE.MBIN" />
+      </Property>
+      <Property name="Type" value="GcBaseBuildingObjectTypes.xml">
+        <Property name="BaseBuildingObjectType" value="Decoration" />
+      </Property>
+      <Property name="DecorationType" value="GcBaseBuildingObjectDecorationTypes.xml">
+        <Property name="BaseBuildingDecorationType" value="Exterior" />
+      </Property>
+      <Property name="Biome" value="GcBiomeType.xml">
+        <Property name="Biome" value="Lush" />
+      </Property>
+      <Property name="BuildableOnBase" value="True" />
+      <Property name="BuildableOnFreighter" value="False" />
+      <Property name="BuildableOnPlanet" value="True" />
+      <Property name="GlobalLimit" value="0" />
+      <Property name="SystemLimit" value="0" />
+      <Property name="PlanetLimit" value="0" />
+      <Property name="RegionLimit" value="1" />
+      <Property name="PerBaseLimits">
+        <Property value="5" />
+        <Property value="0" />
+      </Property>
+      <Property name="CollisionRadiusFactor" value="1" />
+      <Property name="CheckCollision" value="False" />
+      <Property name="CollidesWithPlayer" value="True" />
+      <Property name="CanPlaceOnItself" value="True" />
+      <Property name="Group" value="TERMINALS" />
+      <Property name="DontStore" value="False" />
+      <Property name="CameraRotDeg" value="0" />
+      <Property name="ComplexityCost" value="0" />
+      <Property name="ForceExtraIdx" value="-1" />
+      <Property name="SnappingLimit" value="0" />
+      <Property name="GroupSnappingLimit" value="0" />
+      <Property name="Hint" value="" />
+      <Property name="RemoveGrass" value="False" />
+    </Property>
+    <Property value="GcBaseBuildingEntry.xml">
       <Property name="ID" value="BUILDSIGNAL" />
       <Property name="Model" value="TkModelResource.xml">
         <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/BUILDABLEPARTS/TECH/SIGNALSCANNER.SCENE.MBIN" />
@@ -2823,45 +2902,6 @@
       <Property name="GroupSnappingLimit" value="1" />
       <Property name="Hint" value="" />
       <Property name="RemoveGrass" value="False" />
-    </Property>
-    <Property value="GcBaseBuildingEntry.xml">
-      <Property name="ID" value="BASE" />
-      <Property name="Model" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/BUILDINGS/PARTS/BUILDABLEPARTS/DEFAULTROOM.SCENE.MBIN" />
-      </Property>
-      <Property name="Type" value="GcBaseBuildingObjectTypes.xml">
-        <Property name="BaseBuildingObjectType" value="Building" />
-      </Property>
-      <Property name="DecorationType" value="GcBaseBuildingObjectDecorationTypes.xml">
-        <Property name="BaseBuildingDecorationType" value="Normal" />
-      </Property>
-      <Property name="Biome" value="GcBiomeType.xml">
-        <Property name="Biome" value="Lush" />
-      </Property>
-      <Property name="BuildableOnBase" value="True" />
-      <Property name="BuildableOnFreighter" value="False" />
-      <Property name="BuildableOnPlanet" value="True" />
-      <Property name="GlobalLimit" value="0" />
-      <Property name="SystemLimit" value="0" />
-      <Property name="PlanetLimit" value="1" />
-      <Property name="RegionLimit" value="0" />
-      <Property name="PerBaseLimits">
-        <Property value="0" />
-        <Property value="0" />
-      </Property>
-      <Property name="CollisionRadiusFactor" value="1" />
-      <Property name="CheckCollision" value="False" />
-      <Property name="CollidesWithPlayer" value="True" />
-      <Property name="CanPlaceOnItself" value="True" />
-      <Property name="Group" value="ROOMS" />
-      <Property name="DontStore" value="True" />
-      <Property name="CameraRotDeg" value="0" />
-      <Property name="ComplexityCost" value="5" />
-      <Property name="ForceExtraIdx" value="-1" />
-      <Property name="SnappingLimit" value="0" />
-      <Property name="GroupSnappingLimit" value="0" />
-      <Property name="Hint" value="" />
-      <Property name="RemoveGrass" value="True" />
     </Property>
     <Property value="GcBaseBuildingEntry.xml">
       <Property name="ID" value="MESSAGE" />

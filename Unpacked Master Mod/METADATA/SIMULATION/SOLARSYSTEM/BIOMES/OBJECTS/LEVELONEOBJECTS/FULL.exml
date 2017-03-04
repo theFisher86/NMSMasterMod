@@ -31,8 +31,8 @@
         <Property name="PlacementFlatDensity" value="0.012" />
         <Property name="PlacementSlopeDensity" value="0.012" />
         <Property name="PlacementSlopeMultiplier" value="0" />
-        <Property name="RestrictionsLargeObjectCoverage" value="AlwaysPlace" />
-        <Property name="RestrictionsOverlapStyle" value="None" />
+        <Property name="RestrictionsLargeObjectCoverage" value="DoNotPlaceClose" />
+        <Property name="RestrictionsOverlapStyle" value="All" />
         <Property name="RestrictionsMinHeight" value="-1" />
         <Property name="RestrictionsMaxHeight" value="128" />
         <Property name="RestrictionsRelativeToSeaLevel" value="True" />
@@ -53,7 +53,7 @@
         <Property name="SwapPrimaryForRandomColour" value="False" />
         <Property name="PositioningAlignToNormal" value="False" />
         <Property name="PositioningMinScale" value="1" />
-        <Property name="PositioningMaxScale" value="64" />
+        <Property name="PositioningMaxScale" value="48" />
         <Property name="PositioningMinScaleY" value="1" />
         <Property name="PositioningMaxScaleY" value="1" />
         <Property name="PositioningSlopeScaling" value="1" />
@@ -69,7 +69,7 @@
       <Property value="GcObjectSpawnData.xml">
         <Property name="Type" value="Instanced" />
         <Property name="Resource" value="GcResourceElement.xml">
-          <Property name="Filename" value="CUSTOMMODELS/MSSPPROPSPAWNER/MSSPBIGROCKPROC.SCENE.MBIN" />
+          <Property name="Filename" value="CUSTOMMODELS/MSSPPROPSPAWNER/MSSPBIGROCKPROC.SCENE.MBIN"  />
           <Property name="Seed" value="GcSeed.xml">
             <Property name="Seed" value="0" />
             <Property name="UseSeedValue" value="False" />
@@ -93,7 +93,7 @@
         <Property name="PlacementFlatDensity" value="0.012" />
         <Property name="PlacementSlopeDensity" value="0.012" />
         <Property name="PlacementSlopeMultiplier" value="0" />
-        <Property name="RestrictionsLargeObjectCoverage" value="AlwaysPlace" />
+        <Property name="RestrictionsLargeObjectCoverage" value="DoNotPlaceClose" />
         <Property name="RestrictionsOverlapStyle" value="None" />
         <Property name="RestrictionsMinHeight" value="-1" />
         <Property name="RestrictionsMaxHeight" value="128" />
@@ -109,7 +109,7 @@
         <Property name="FadeOutStartDistance" value="9999" />
         <Property name="FadeOutEndDistance" value="9999" />
         <Property name="FadeOutOffsetDistance" value="0" />
-        <Property name="MatchGroundColour" value="False" />
+        <Property name="MatchGroundColour" value="True" />
         <Property name="GroundColourIndex" value="Auto" />
         <Property name="SwapPrimaryForSecondaryColour" value="False" />
         <Property name="SwapPrimaryForRandomColour" value="False" />
@@ -121,10 +121,10 @@
         <Property name="PositioningSlopeScaling" value="1" />
         <Property name="PositioningPatchEdgeScaling" value="0" />
         <Property name="PositioningMaxXZRotation" value="0" />
-        <Property name="ObjectAutoCollision" value="False" />
+        <Property name="ObjectAutoCollision" value="True" />
         <Property name="ObjectCollideWithPlayer" value="True" />
         <Property name="ObjectCreaturesCanEat" value="False" />
-        <Property name="ObjectShearWindStrength" value="0" />
+        <Property name="ObjectShearWindStrength" value="0.75" />
         <Property name="RuntimeCacheCachedCollisionNodeCount" value="-1" />
         <Property name="RuntimeCacheAllowLimiting" value="True" />
       </Property>
@@ -155,7 +155,7 @@
         <Property name="PlacementFlatDensity" value="0.012" />
         <Property name="PlacementSlopeDensity" value="0.012" />
         <Property name="PlacementSlopeMultiplier" value="0" />
-        <Property name="RestrictionsLargeObjectCoverage" value="AlwaysPlace" />
+        <Property name="RestrictionsLargeObjectCoverage" value="DoNotPlaceClose" />
         <Property name="RestrictionsOverlapStyle" value="None" />
         <Property name="RestrictionsMinHeight" value="-1" />
         <Property name="RestrictionsMaxHeight" value="128" />

@@ -14,6 +14,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
  * [Buildable Bases](https://nomansskymods.com/mods/buildable-bases/) by MonkeyMan192
  * [Functional Portals](https://nomansskymods.com/mods/functional-portals/) by MonkeyMan192
+ * [Crystal Interactions](https://github.com/theFisher86/NMSMasterMod/commit/e16166e88e34c71027e452399099aebb4ec3c0f0) by theFisher86
  * __New Mods__ by __YOU__ _And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code._
  
 # How to install

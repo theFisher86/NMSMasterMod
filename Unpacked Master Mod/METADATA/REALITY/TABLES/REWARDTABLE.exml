@@ -1061,6 +1061,103 @@
   </Property>
   <Property name="GenericTable">
     <Property value="GcGenericRewardTableEntry.xml">
+      <Property name="Id" value="MAGICCRYSTAL_LARGE" />
+      <Property name="Common" value="GcRewardTableItemList.xml">
+        <Property name="EntitlementLinked" value="False" />
+        <Property name="EntitlementId" value="" />
+        <Property name="RewardChoice" value="TryEach" />
+        <Property name="List">
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="20" />
+            <Property name="Reward" value="GcRewardSubstance.xml">
+              <Property name="ItemCategory" value="GcRealitySubstanceCategory.xml">
+                <Property name="SubstanceCategory" value="Technology" />
+              </Property>
+              <Property name="ItemRarity" value="GcRarity.xml">
+                <Property name="Rarity" value="Rare" />
+              </Property>
+              <Property name="ItemLevel" value="1" />
+              <Property name="AmountMin" value="100" />
+              <Property name="AmountMax" value="250" />
+              <Property name="HardModeMultiplier" value="1.5" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="20" />
+            <Property name="Reward" value="GcRewardSubstance.xml">
+              <Property name="ItemCategory" value="GcRealitySubstanceCategory.xml">
+                <Property name="SubstanceCategory" value="Commodity" />
+              </Property>
+              <Property name="ItemRarity" value="GcRarity.xml">
+                <Property name="Rarity" value="Rare" />
+              </Property>
+              <Property name="ItemLevel" value="1" />
+              <Property name="AmountMin" value="100" />
+              <Property name="AmountMax" value="250" />
+              <Property name="HardModeMultiplier" value="1.5" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="20" />
+            <Property name="Reward" value="GcRewardSubstance.xml">
+              <Property name="ItemCategory" value="GcRealitySubstanceCategory.xml">
+                <Property name="SubstanceCategory" value="Fuel" />
+              </Property>
+              <Property name="ItemRarity" value="GcRarity.xml">
+                <Property name="Rarity" value="Rare" />
+              </Property>
+              <Property name="ItemLevel" value="1" />
+              <Property name="AmountMin" value="100" />
+              <Property name="AmountMax" value="250" />
+              <Property name="HardModeMultiplier" value="1.5" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="20" />
+            <Property name="Reward" value="GcRewardSubstance.xml">
+              <Property name="ItemCategory" value="GcRealitySubstanceCategory.xml">
+                <Property name="SubstanceCategory" value="Tradeable" />
+              </Property>
+              <Property name="ItemRarity" value="GcRarity.xml">
+                <Property name="Rarity" value="Rare" />
+              </Property>
+              <Property name="ItemLevel" value="1" />
+              <Property name="AmountMin" value="100" />
+              <Property name="AmountMax" value="250" />
+              <Property name="HardModeMultiplier" value="1.5" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="20" />
+            <Property name="Reward" value="GcRewardSubstance.xml">
+              <Property name="ItemCategory" value="GcRealitySubstanceCategory.xml">
+                <Property name="SubstanceCategory" value="Special" />
+              </Property>
+              <Property name="ItemRarity" value="GcRarity.xml">
+                <Property name="Rarity" value="Rare" />
+              </Property>
+              <Property name="ItemLevel" value="1" />
+              <Property name="AmountMin" value="100" />
+              <Property name="AmountMax" value="250" />
+              <Property name="HardModeMultiplier" value="1.5" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+          <Property value="GcRewardTableItem.xml">
+            <Property name="PercentageChance" value="30" />
+            <Property name="Reward" value="GcRewardDamage.xml">
+              <Property name="PlayerDamage" value="HUGECREATUREDMG" />
+            </Property>
+            <Property name="LabelID" value="" />
+          </Property>
+        </Property>
+      </Property>
+    </Property>
+    <Property value="GcGenericRewardTableEntry.xml">
       <Property name="Id" value="POOPLOOT" />
       <Property name="Common" value="GcRewardTableItemList.xml">
         <Property name="EntitlementLinked" value="False" />

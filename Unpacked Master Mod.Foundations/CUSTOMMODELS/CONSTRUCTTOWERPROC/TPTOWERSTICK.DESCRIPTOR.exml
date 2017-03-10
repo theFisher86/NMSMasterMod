@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--File created using MBINCompiler version (1.2.0)-->
+<Data template="TkModelDescriptorList">
+  <Property name="List">
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPSUBSTRUCT_A" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPSUBSTRUCT_A" />
+          <Property name="Name" value="_TPSUBSTRUCT_A" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPSUBSTRUCT.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPSEGSTIK_A" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPSEGSTIK_A" />
+          <Property name="Name" value="_TPSEGSTIK_A" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPSEGMENTSTICK.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPSEGSTIK_B" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPSEGSTIK_B" />
+          <Property name="Name" value="_TPSEGSTIK_B" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPSEGMENTSTICK.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPROOF_A" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOF_A" />
+          <Property name="Name" value="_TPROOF_A" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPROOF.SCENE.MBIN" />
+            </Property>
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPSIDEACCCAP.SCENE.MBIN" />
+            </Property>
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPROOFACC.SCENE.MBIN" />
+            </Property>
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPROOFMODULES.SCENE.MBIN" />
+            </Property>
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\EMPTY.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPACC_A" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPACC_A" />
+          <Property name="Name" value="_TPACC_A" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTTOWERPROC\TPACC.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

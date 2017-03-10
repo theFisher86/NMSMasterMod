@@ -3,14 +3,14 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
 # PLEASE NOTE: Most of the mods will be disabled until they're updated due to the Pathfinder Update.  Hold On to your Butts!
 
 # Included Mods
- * ~~[Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson~~
+ * [Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson
  * ~~[Constructs](https://nomansskymods.com/mods/constructs/) by MsrSgtShooterPerson~~
  * ~~[Transfer freight to and from freighter on planets](https://nomansskymods.com/mods/transfer-freight-to-and-from-freighter-on-planets/) by Quantus~~
  * ~~[Find the Blackbox](https://nomansskymods.com/mods/find-the-blackbox/) by Quantus~~
  * ~~[Custom Trees](https://nomansskymods.com/mods/custom-trees-mod-4/) by Gamer~~
  * ~~[Alien Structures](https://nomansskymods.com/mods/alien-structures-mod/) by Gamer~~
  * ~~[Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-foundation-edition/) by 03woodm~~
- * ~~[Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254~~
+ * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * ~~[Dark Space](https://nomansskymods.com/mods/dark-space-foundation-update/) by jeveir~~
  * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
  * ~~[Buildable Bases](https://nomansskymods.com/mods/buildable-bases/) by MonkeyMan192~~

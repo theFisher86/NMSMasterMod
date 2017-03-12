@@ -5,19 +5,18 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
 # Included Mods
  * [Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson
  * [SimCity 5300](https://nomansskymods.com/mods/simcity-5300/) by theFisher86
+ * [Improved Flight]() by theFisher86 (based on [Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-foundation-edition/) by 03woodm)
+  * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * ~~[Constructs](https://nomansskymods.com/mods/constructs/) by MsrSgtShooterPerson~~
  * ~~[Transfer freight to and from freighter on planets](https://nomansskymods.com/mods/transfer-freight-to-and-from-freighter-on-planets/) by Quantus~~
  * ~~[Find the Blackbox](https://nomansskymods.com/mods/find-the-blackbox/) by Quantus~~
  * ~~[Custom Trees](https://nomansskymods.com/mods/custom-trees-mod-4/) by Gamer~~
  * ~~[Alien Structures](https://nomansskymods.com/mods/alien-structures-mod/) by Gamer~~
  * ~~[Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-foundation-edition/) by 03woodm~~
- * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * ~~[Dark Space](https://nomansskymods.com/mods/dark-space-foundation-update/) by jeveir~~
  * ~~[Buildmenu Additions](https://nomansskymods.com/mods/buildmenu-additions/) by Mjjstral~~
- * ~~[Buildable Bases](https://nomansskymods.com/mods/buildable-bases/) by MonkeyMan192~~
  * ~~[Functional Portals](https://nomansskymods.com/mods/functional-portals/) by MonkeyMan192~~
  * ~~[Crystal Interactions](https://github.com/theFisher86/NMSMasterMod/commit/e16166e88e34c71027e452399099aebb4ec3c0f0) by theFisher86~~
- * ~~[City Builder -alpha](https://github.com/theFisher86/NMSMasterMod/releases/tag/v0.20-alpha) by theFisher86~~
  * __New Mods__ by __YOU__ _And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code._
  
 # How To Install

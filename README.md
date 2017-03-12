@@ -9,6 +9,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
  * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
  * [More Ships Per System](https://nomansskymods.com/mods/more-ships-per-system/) (24 Ships version) by jaszhix
  * [Duds Sky](https://nomansskymods.com/mods/duds-sky/) Asteroid Overhaul, Flight Atmosphere by jasondude7116
+ 
 # Mods that will be included once they're updated for PathFinder
  * [Constructs](https://nomansskymods.com/mods/constructs/) by MsrSgtShooterPerson
  * [Transfer freight to and from freighter on planets](https://nomansskymods.com/mods/transfer-freight-to-and-from-freighter-on-planets/) by Quantus

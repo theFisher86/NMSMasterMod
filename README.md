@@ -4,7 +4,7 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
 
 # Included Mods
  * [Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson
- * [SimCity 5300](https://nomansskymods.com/mods/simcity5300/) by theFisher86
+ * [SimCity 5300](https://nomansskymods.com/mods/simcity-5300/) by theFisher86
  * ~~[Constructs](https://nomansskymods.com/mods/constructs/) by MsrSgtShooterPerson~~
  * ~~[Transfer freight to and from freighter on planets](https://nomansskymods.com/mods/transfer-freight-to-and-from-freighter-on-planets/) by Quantus~~
  * ~~[Find the Blackbox](https://nomansskymods.com/mods/find-the-blackbox/) by Quantus~~

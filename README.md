@@ -3,23 +3,22 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
 # PLEASE NOTE: Most of the mods will be disabled until they're updated due to the Pathfinder Update.  Hold On to your Butts!
 
 # Included Mods
- * [Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson
+
  * [SimCity 5300](https://nomansskymods.com/mods/simcity-5300/) by theFisher86
- * [Improved Flight]() by theFisher86 (based on [Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-foundation-edition/) by 03woodm with help from jasondude7116)
- * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components/) by Koori254
- * [More Ships Per System](https://nomansskymods.com/mods/more-ships-per-system/) (24 Ships version) by jaszhix
- * [Duds Sky](https://nomansskymods.com/mods/duds-sky/) Asteroid Overhaul, Flight Atmosphere by jasondude7116
- 
-# Mods that will be included once they're updated for PathFinder
+ * [Megaliths](https://nomansskymods.com/mods/megaliths/) by MsrSgtShooterPerson
  * [Constructs](https://nomansskymods.com/mods/constructs/) by MsrSgtShooterPerson
- * [Transfer freight to and from freighter on planets](https://nomansskymods.com/mods/transfer-freight-to-and-from-freighter-on-planets/) by Quantus
- * [Find the Blackbox](https://nomansskymods.com/mods/find-the-blackbox/) by Quantus
- * [Custom Trees](https://nomansskymods.com/mods/custom-trees-mod-4/) by Gamer
  * [Alien Structures](https://nomansskymods.com/mods/alien-structures-mod/) by Gamer
- * [Dark Space](https://nomansskymods.com/mods/dark-space-foundation-update/) by jeveir
- * [Functional Portals](https://nomansskymods.com/mods/functional-portals/) by MonkeyMan192
- * __New Mods__ by __YOU__ _And by that I mean if you're working on a new mod please let me know and I'll add it or simply submit a pull request to have it merged into the existing code._
- 
+ * [Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-pathfinder-edition/) by 03woodm
+ * [Dark Space](https://nomansskymods.com/mods/dark-space/) by jeveir
+ * [Everything Tradeable](https://nomansskymods.com/mods/everything-tradeable/) by Rapta
+ * [More Ships per System](https://nomansskymods.com/mods/more-ships-per-system/) by jaszhix
+ * [Dismantle Core Components](https://nomansskymods.com/mods/nms-dismantle-core-components-path-finder-update/) by Koori254
+ * [Duds Sky Asteroids & Flight Atmosphere](https://nomansskymods.com/mods/duds-sky/) by jasondude7116
+
+# Adapted Features
+ * Custom Warp adapted from [CJs Warp Mod](https://nomansskymods.com/mods/cjs-warp-mod/) by cjhaley
+ * Megaliths/Alien Structures merge by theFisher86
+
 # How To Install
 - Download 2 files the most recent CustomModelsAndEffects file and the most recent Data file.  They both not be included in every release but make sure you always have the most recent version of both.  I'll try to include a link to the most recent version where I can.
 - Put both of these into your /PCBANKS/MODS/ folder in your NMS install directory
@@ -31,10 +30,3 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
 2. The pull request will be reviewed for conflicts, if there are no conflicts it will be added into the mod with no further issues.
 3. If there **are** conflicts they will need resolved via the usual Git methodology.  It is important to note that existing accepted code will most likely not be removed.  However if you're mod is just changing something that is in the same file as another existing mod and the current code is vanilla and your code is new that'll be accepted.  Take a look at the [commit for Alien Structures](https://github.com/theFisher86/NMSMasterMod/commit/153cb5a539bbd644c2a1d34572d433fecee3439b) for an example.
 __Note:__PlanetBuildingTable has a limited number of "slots" that can be used in it (1 more than vanilla).  So if you're modifying that it may be trickier to make your mod compatible with others.
- 
-# To Do
-* ~~Create splash banner to show included mods, mod authors and title during startup.~~
-* Write a script to check for mod updates and send notifications when mods are updated to make sure that they're updated here as well.
-* Build GitHub Pages site with pretty formatting and whatnot.
-* Build user-friendly GUI and app so that this can be done custom by users without code.
-* If all of the above works out and there is enough user interest possibly build a new NMS Modding website that automatically does all this.

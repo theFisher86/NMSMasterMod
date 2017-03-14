@@ -126,45 +126,12 @@
     </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="TRADERFACT" />
-    </Property><!-- The model is missing a wall, disabled.
-    <Property value="NMSString0x10.xml"> 
-      <Property name="Value" value="WARFACT" />
-    </Property>-->
+    </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="SCIENCERADIO" />
     </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="TRADERRADIO" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="SCIENCETRADE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="TRADERTTRADE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDWARRIORTRADE" />
-    </Property><!-- Shacks arent working yet
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDSCIENCESHACK" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDTRADERSHACK" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDWARRIORSHACK" />
-    </Property>-->
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDLANDINGZONE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDSIGNALSCAN" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDWAYPOINTSLOPE" />
-    </Property>
-    <Property value="NMSString0x10.xml">
-      <Property name="Value" value="BLDWAYPOINTWARRIOR" />
     </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="BLDBASECLAIM" />
@@ -174,6 +141,42 @@
     </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="BLDBASETELEPORT" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDSIGNALSCAN" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDWAYPOINT1" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDSHIPSUMMON" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDBIKE" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDROVER2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDBUG" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDBUGGY2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDROVER2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="SCITRADE2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="TRADTRADE2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="WARTRADE2" />
+    </Property>
+    <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDWAYPOINTWARRI" />
     </Property>
   </Property>
 </Data>

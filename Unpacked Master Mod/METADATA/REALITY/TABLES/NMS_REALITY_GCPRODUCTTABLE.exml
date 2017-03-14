@@ -8001,14 +8001,14 @@
       <Property name="NormalisedValueOffWorld" value="0.01190119" />
     </Property>
     <Property value="GcProductData.xml">
-      <Property name="Id" value="SHIPSUMMON" />
-      <Property name="Name" value="BLD_SHIPSUMMON_NAME" />
-      <Property name="NameLower" value="BLD_SHIPSUMMON_NAME_L" />
+      <Property name="Id" value="BLDSHIPSUMMON" />
+      <Property name="Name" value="SHIP SUMMONER" />
+      <Property name="NameLower" value="Ship SummonEr" />
       <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_SHIPSUMMON_SUBTITLE" />
+        <Property name="Value" value="Call your ship to you" />
       </Property>
       <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_SHIPSUMMON_DESCRIPTION" />
+        <Property name="Value" value="Build this handy dandy doohikey to summon your ship no matter where you are!" />
       </Property>
       <Property name="Hint" value="" />
       <Property name="Debis" value="TkModelResource.xml">
@@ -8045,7 +8045,14 @@
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="10" />
+          <Property name="Amount" value="150" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="TECH1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="75" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -13993,483 +14000,25 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="DYNAMICRES" />
           <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
+            <Property name="InventoryType" value="Product" />
           </Property>
-          <Property name="Amount" value="15" />
+          <Property name="Amount" value="1" />
         </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="FUELRARE1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="15" />
+          <Property name="Amount" value="100" />
         </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="ACID" />
           <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
+            <Property name="InventoryType" value="Product" />
           </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="WALLCURVED" />
-      <Property name="Name" value="BLD_LOWCURVEDWALL_NAME" />
-      <Property name="NameLower" value="BLD_LOWCURVEDWALL_NAME_L" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_SUBTITLE" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="BLD_LOWCURVEDWALL_DESCRIPTION" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="5000" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.WALLCURVED.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="15" />
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14583,11 +14132,25 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="DYNAMICRES" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="FUELRARE1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="100" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="ACID" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14642,11 +14205,11 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="TECHFRAG" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="150" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14677,7 +14240,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL2.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -14701,11 +14264,18 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="200" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="GEKSTATUE" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14736,7 +14306,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL3.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -14760,11 +14330,18 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="200" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="KORVAXCUBE" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14795,7 +14372,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL3.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -14819,11 +14396,18 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="200" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="KORVAXCASING" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14854,7 +14438,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL2.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -14878,11 +14462,18 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="200" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="GEKCHARM" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14896,7 +14487,7 @@
       <Property name="NormalisedValueOnWorld" value="0.01190119" />
       <Property name="NormalisedValueOffWorld" value="0.01190119" />
     </Property>
-    <Property value="GcProductData.xml"><!-- Model missing parts, disabled -->
+    <Property value="GcProductData.xml">
       <Property name="Id" value="WARFACT" />
       <Property name="Name" value="BUILD VYKEEN FACTORY" />
       <Property name="NameLower" value="VyKeen Factory" />
@@ -14913,7 +14504,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL1.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -14937,11 +14528,18 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="200" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="GRAHGRAH" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -14972,7 +14570,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL3.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -15000,7 +14598,14 @@
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="300" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="KORVAXCUBE" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15031,7 +14636,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL2.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -15059,7 +14664,14 @@
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="300" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="GEKNIP" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15074,596 +14686,6 @@
       <Property name="NormalisedValueOffWorld" value="0.01190119" />
     </Property>
     <Property value="GcProductData.xml">
-      <Property name="Id" value="SCIENCETRADE" />
-      <Property name="Name" value="BUILD KORVAK TRADINGPOST" />
-      <Property name="NameLower" value="Korvak Trading Post" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A Korvak Trading Post" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="I will give you my rare foil Charizard for your..." />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="TRADERTTRADE" />
-      <Property name="Name" value="GEK TRADINGPOST" />
-      <Property name="NameLower" value="Gek Trading Post" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A Gek Trading Post" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="I will give you my rare foil Charizard for your..." />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDWARRIORTRADE" />
-      <Property name="Name" value="BUILD VYKEEN TRADINGPOST" />
-      <Property name="NameLower" value="VyKeen Trading Post" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A VyKeen Trading Post" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="I will give you my rare foil Charizard for your..." />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDSCIENCESHACK" />
-      <Property name="Name" value="BUILD KORVAK SHACK" />
-      <Property name="NameLower" value="Korvak Shack" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A Korvak Shack" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="Relax, stay awhile" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDTRADERSHACK" />
-      <Property name="Name" value="BUILD GEK SHACK" />
-      <Property name="NameLower" value="Gek Shack" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A Gek Shack" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="Stay awhile, Relax will you?" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDWARRIORSHACK" />
-      <Property name="Name" value="BUILD VYKEEN SHACK" />
-      <Property name="NameLower" value="VyKeen Shack" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="A VyKeen Shack" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="You WILL stay awhile. You WILL relax." />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.WALLSCREEN.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDLANDINGZONE" />
-      <Property name="Name" value="BLDLANDINGZONE" />
-      <Property name="NameLower" value="Landing Zone" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="Landing Zone" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="Make sure to feed the meter!" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDSIGNALSCAN" />
-      <Property name="Name" value="BLDSIGNALSCAN" />
-      <Property name="NameLower" value="Signal Scanner" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="Signal Scanner" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="I hear you can get WMMS on this!" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDWAYPOINTSLOPE" />
-      <Property name="Name" value="WAYPOINT" />
-      <Property name="NameLower" value="Waypoint" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="Waypoint" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="Its a waypoint..." />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml">
-      <Property name="Id" value="BLDWAYPOINTWARRIOR" />
-      <Property name="Name" value="VYKEEN WAYPOINT" />
-      <Property name="NameLower" value="VyKeen Waypoint" />
-      <Property name="Subtitle" value="VariableSizeString.xml">
-        <Property name="Value" value="VyKeen Waypoint" />
-      </Property>
-      <Property name="Description" value="VariableSizeString.xml">
-        <Property name="Value" value="A VyKeen Waypoint" />
-      </Property>
-      <Property name="Hint" value="" />
-      <Property name="Debis" value="TkModelResource.xml">
-        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
-      </Property>
-      <Property name="BaseValue" value="600" />
-      <Property name="Level" value="1" />
-      <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
-      </Property>
-      <Property name="Colour" value="Colour.xml">
-        <Property name="R" value="0.172549" />
-        <Property name="G" value="0.4862745" />
-        <Property name="B" value="0.6235294" />
-        <Property name="A" value="1" />
-      </Property>
-      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
-        <Property name="SubstanceCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Category" value="GcProductCategory.xml">
-        <Property name="ProductCategory" value="BuildingPart" />
-      </Property>
-      <Property name="Rarity" value="GcRarity.xml">
-        <Property name="Rarity" value="Common" />
-      </Property>
-      <Property name="Legality" value="GcLegality.xml">
-        <Property name="Legality" value="Legal" />
-      </Property>
-      <Property name="Consumable" value="False" />
-      <Property name="ChargeValue" value="0" />
-      <Property name="Requirements">
-        <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
-          <Property name="InventoryType" value="GcInventoryType.xml">
-            <Property name="InventoryType" value="Substance" />
-          </Property>
-          <Property name="Amount" value="20" />
-        </Property>
-      </Property>
-      <Property name="Cost" value="GcItemPriceModifiers.xml">
-        <Property name="SpaceStationMarkup" value="0" />
-        <Property name="LowPriceMod" value="0.25" />
-        <Property name="HighPriceMod" value="0.5" />
-        <Property name="BuyBaseMarkup" value="0.2" />
-        <Property name="BuyMarkupMod" value="0" />
-      </Property>
-      <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.01190119" />
-      <Property name="NormalisedValueOffWorld" value="0.01190119" />
-    </Property>
-    <Property value="GcProductData.xml"><!-- This isnt working right so the blueprint has been removed from the purchaseable list -->
       <Property name="Id" value="BLDLUNAR" />
       <Property name="Name" value="EXPERIMENTAL BUILDING" />
       <Property name="NameLower" value="ProcGen Building" />
@@ -15680,7 +14702,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.NMSLOGO.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -15704,11 +14726,11 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="COMRARE1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="250" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15767,7 +14789,21 @@
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="100" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="DYNAMICRES" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="DIMENSIONMATRIX" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15798,7 +14834,7 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECORATION.LARGEDESK.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.CONTAINER.0.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -15822,11 +14858,11 @@
       <Property name="ChargeValue" value="0" />
       <Property name="Requirements">
         <Property value="GcTechnologyRequirement.xml">
-          <Property name="ID" value="COM1" />
+          <Property name="ID" value="TECHUNCOMMON1" />
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="20" />
+          <Property name="Amount" value="300" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15857,7 +14893,146 @@
       <Property name="BaseValue" value="600" />
       <Property name="Level" value="1" />
       <Property name="Icon" value="TkTextureResource.xml">
-        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.STAMINA.DDS" />
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/PRODUCTS/PRODUCT.ELEMENT.GEL1.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="DYNAMICRES" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="FUELRARE1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="100" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="ACID" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="1" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.09990999" />
+      <Property name="NormalisedValueOffWorld" value="0.09990999" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDSIGNALSCAN" />
+      <Property name="Name" value="SIGNAL SCANNER" />
+      <Property name="NameLower" value="Signal Scanner" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Signal Scanner" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="I hear you can get WMMS on this!" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SIGNAL.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="NEUTRINO" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="5" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COMRARE1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="75" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDWAYPOINT1" />
+      <Property name="Name" value="WAYPOINT" />
+      <Property name="NameLower" value="Waypoint" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Waypoint" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="Its a waypoint..." />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.LIGHT002.DDS" />
       </Property>
       <Property name="Colour" value="Colour.xml">
         <Property name="R" value="0.172549" />
@@ -15885,7 +15060,7 @@
           <Property name="InventoryType" value="GcInventoryType.xml">
             <Property name="InventoryType" value="Substance" />
           </Property>
-          <Property name="Amount" value="15" />
+          <Property name="Amount" value="250" />
         </Property>
       </Property>
       <Property name="Cost" value="GcItemPriceModifiers.xml">
@@ -15896,8 +15071,664 @@
         <Property name="BuyMarkupMod" value="0" />
       </Property>
       <Property name="SpecificChargeOnly" value="False" />
-      <Property name="NormalisedValueOnWorld" value="0.09990999" />
-      <Property name="NormalisedValueOffWorld" value="0.09990999" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDWAYPOINTWARRI" />
+      <Property name="Name" value="VYKEEN WAYPOINT" />
+      <Property name="NameLower" value="VyKeen Waypoint" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="VyKeen Waypoint" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="A VyKeen Waypoint" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.LIGHT001.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="SHIPSUMMONZONE" />
+      <Property name="Name" value="SHIP SUMMON ZONE" />
+      <Property name="NameLower" value="Ship Summon Zone" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Ship Summon Zone" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="A Ship Summon Zone" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.SHIPSUMMON.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDBUG" />
+      <Property name="Name" value="BUG" />
+      <Property name="NameLower" value="Bug" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Moon Buggy." />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="Life is a highway, youre gonna ride it all night long." />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.CONTAINER.0.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="TECHUNCOMMON1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="300" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDBUGGY2" />
+      <Property name="Name" value="BUGGY" />
+      <Property name="NameLower" value="A Buggy" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Drive In Style" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="Now with an AM FM Radio!" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/TECHNOLOGY/RENDER.SIGNAL.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="NEUTRINO" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="5" />
+        </Property>
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COMRARE1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Product" />
+          </Property>
+          <Property name="Amount" value="75" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDBIKE" />
+      <Property name="Name" value="BIKE" />
+      <Property name="NameLower" value="Bike" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Bike" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="No Garage Required!" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.SHIPSUMMON.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDWALKER" />
+      <Property name="Name" value="BLDWALKER" />
+      <Property name="NameLower" value="BLDWALKER" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="BLDWALKER" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="BLDWALKER" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.SHIPSUMMON.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="SCITRADE2" />
+      <Property name="Name" value="KORVAX TRADING POST" />
+      <Property name="NameLower" value="Korvax Trading Post" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Trade Like a Korvax!" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="A full Korvax Trading Post for all your trading needs!" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL3.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="TRADTRADE2" />
+      <Property name="Name" value="GEK TRADING POST" />
+      <Property name="NameLower" value="Gek Trading Post" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="Gek Trading Post" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="Trade for something, will you?" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL2.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDROVER2" />
+      <Property name="Name" value="ROVER" />
+      <Property name="NameLower" value="Rover" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="A Rover" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="No Garage Required!" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.SHIPSUMMON.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="WARTRADE2" />
+      <Property name="Name" value="VYKEEN TRADING POST" />
+      <Property name="NameLower" value="VyKeen Trading Post" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="VyKeen Trading Post" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="VyKeen Trading Post" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/DECAL.VISUAL1.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
+    </Property>
+    <Property value="GcProductData.xml">
+      <Property name="Id" value="BLDWALKER" />
+      <Property name="Name" value="BLDWALKER" />
+      <Property name="NameLower" value="BLDWALKER" />
+      <Property name="Subtitle" value="VariableSizeString.xml">
+        <Property name="Value" value="BLDWALKER" />
+      </Property>
+      <Property name="Description" value="VariableSizeString.xml">
+        <Property name="Value" value="BLDWALKER" />
+      </Property>
+      <Property name="Hint" value="" />
+      <Property name="Debis" value="TkModelResource.xml">
+        <Property name="Filename" value="MODELS/EFFECTS/DEBRIS/TERRAINDEBRIS/TERRAINDEBRIS4.SCENE.MBIN" />
+      </Property>
+      <Property name="BaseValue" value="600" />
+      <Property name="Level" value="1" />
+      <Property name="Icon" value="TkTextureResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/BUILDABLE/BUILDABLE.SHIPSUMMON.DDS" />
+      </Property>
+      <Property name="Colour" value="Colour.xml">
+        <Property name="R" value="0.172549" />
+        <Property name="G" value="0.4862745" />
+        <Property name="B" value="0.6235294" />
+        <Property name="A" value="1" />
+      </Property>
+      <Property name="SubstanceCategory" value="GcRealitySubstanceCategory.xml">
+        <Property name="SubstanceCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Category" value="GcProductCategory.xml">
+        <Property name="ProductCategory" value="BuildingPart" />
+      </Property>
+      <Property name="Rarity" value="GcRarity.xml">
+        <Property name="Rarity" value="Common" />
+      </Property>
+      <Property name="Legality" value="GcLegality.xml">
+        <Property name="Legality" value="Legal" />
+      </Property>
+      <Property name="Consumable" value="False" />
+      <Property name="ChargeValue" value="0" />
+      <Property name="Requirements">
+        <Property value="GcTechnologyRequirement.xml">
+          <Property name="ID" value="COM1" />
+          <Property name="InventoryType" value="GcInventoryType.xml">
+            <Property name="InventoryType" value="Substance" />
+          </Property>
+          <Property name="Amount" value="250" />
+        </Property>
+      </Property>
+      <Property name="Cost" value="GcItemPriceModifiers.xml">
+        <Property name="SpaceStationMarkup" value="0" />
+        <Property name="LowPriceMod" value="0.25" />
+        <Property name="HighPriceMod" value="0.5" />
+        <Property name="BuyBaseMarkup" value="0.2" />
+        <Property name="BuyMarkupMod" value="0" />
+      </Property>
+      <Property name="SpecificChargeOnly" value="False" />
+      <Property name="NormalisedValueOnWorld" value="0.01190119" />
+      <Property name="NormalisedValueOffWorld" value="0.01190119" />
     </Property>
   </Property>
 </Data>

@@ -18,8 +18,6 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
    - More amazing alien structures, many with interactable landing pads and the ability to build within them!
  * [Spaceflight Overhaul](https://nomansskymods.com/mods/spaceflight-overhaul-pathfinder-edition/) by 03woodm
    - A complete overhaul of the spaceship flight systems.  Allowing more control over your ship.
- * [Dark Space](https://nomansskymods.com/mods/dark-space/) by jeveir
-   - Removes the excess color from space, while the nebulas and stars still provide color when you're in space you'll feel like you're in space.
  * [Everything Tradeable](https://nomansskymods.com/mods/everything-tradeable/) by Rapta
    - Allows all items to be bought and sold.
  * [More Ships per System](https://nomansskymods.com/mods/more-ships-per-system/) by jaszhix
@@ -28,12 +26,18 @@ This is basically a merged mod of some of the most popular No Man's Sky Mods.  I
    - Allows you to dismantle all the components on your ship and move them around.  Do Not dismantle something you don't have a recipe for!
  * [Duds Sky Asteroids & Flight Atmosphere](https://nomansskymods.com/mods/duds-sky/) by jasondude7116
    - Tweaks to the atmospher and asteroid settings to provide a more realistic and enjoyable experience.
-
-# Adapted Features
- * Custom Warp adapted from [CJs Warp Mod](https://nomansskymods.com/mods/cjs-warp-mod/) by cjhaley
-   - A customized Warp Effect exclusive to NMS Master Mod
- * Megaliths/Alien Structures merge by theFisher86
-   - These two previously incompatbile mods now work together.
+ * [CJs Warp Mod](https://nomansskymods.com/mods/cjs-warp-mod/) by cjhaley
+   - Cool warp effect
+ * [Exocraft Scan Booster](https://nomansskymods.com/mods/exocraft-scan-boost/) by Tub0Crisco
+   - Remixed to require the vehicle scanner upgrade level 2 (originally worked on normal scanner)
+   - Provides more scan options
+ * [No Man's Customs](https://nomansskymods.com/mods/roamer-tune-up/) by JakeBurchDev
+   - Improvements to vehicle speed, jump, etc.  
+   - Makes vehicles more fun to drive.
+ * [Better Landing](https://nomansskymods.com/mods/better-landing-landing-zones-pathfinder/) by elca
+   - Increases the range and speed at which you land at landing zones.
+ * [Origins - A Story Untold](https://nomansskymods.com/mods/origins-a-story-untold/) by Nadalle
+   - New models and buildings with a some lore to go along with them!
 
 # How To Install
 - Download 2 files the most recent CustomModelsAndEffects file and the most recent Data file.  They both not be included in every release but make sure you always have the most recent version of both.  I'll try to include a link to the most recent version where I can.

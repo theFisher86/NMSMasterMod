@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkModelDescriptorList">
+  <Property name="List">
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_STRUCTSTWO_" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_0" />
+          <Property name="Name" value="_STRUCTSTWO_0" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\M\M.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_1" />
+          <Property name="Name" value="_STRUCTSTWO_1" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\MONOLITH2\MONOLITH2.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_2" />
+          <Property name="Name" value="_STRUCTSTWO_2" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\MONOLITHONE\MONOLITHONE.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_3" />
+          <Property name="Name" value="_STRUCTSTWO_3" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\P\P.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_4" />
+          <Property name="Name" value="_STRUCTSTWO_4" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\SKYDOME\SKYDOME.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_STRUCTSTWO_5" />
+          <Property name="Name" value="_STRUCTSTWO_5" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\ASTRUCTURES\SPACEPORT\SPACEPORT.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

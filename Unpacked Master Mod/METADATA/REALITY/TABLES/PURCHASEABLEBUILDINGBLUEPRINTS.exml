@@ -155,6 +155,9 @@
       <Property name="Value" value="SCITRADE2" />
     </Property>
     <Property value="NMSString0x10.xml">
+      <Property name="Value" value="BLDPOOP" />
+    </Property>
+    <Property value="NMSString0x10.xml">
       <Property name="Value" value="TRADTRADE2" />
     </Property>
     <Property value="NMSString0x10.xml">

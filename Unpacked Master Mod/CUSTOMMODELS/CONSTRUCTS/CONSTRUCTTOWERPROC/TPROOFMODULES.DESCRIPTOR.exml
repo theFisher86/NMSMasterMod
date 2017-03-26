@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkModelDescriptorList">
+  <Property name="List">
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_TPROOFMODULES_" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_0" />
+          <Property name="Name" value="_TPROOFMODULES_0" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCAIRCON.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_1" />
+          <Property name="Name" value="_TPROOFMODULES_1" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCBARRELS.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_2" />
+          <Property name="Name" value="_TPROOFMODULES_2" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCLARGEEVENT.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_3" />
+          <Property name="Name" value="_TPROOFMODULES_3" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCROUNDARRAY.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_4" />
+          <Property name="Name" value="_TPROOFMODULES_4" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCTRIPLECYL.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_TPROOFMODULES_5" />
+          <Property name="Name" value="_TPROOFMODULES_5" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPACCTRIPLEVENT.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

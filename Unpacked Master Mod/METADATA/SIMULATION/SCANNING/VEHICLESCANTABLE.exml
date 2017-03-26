@@ -8,9 +8,21 @@
         </Property>
       </Property>
       <Property name="Name" value="BUILDING_RADIOTOWER_L" />
-      <Property name="RequiredTech" value="VEHICLE_SCAN2" />
+      <Property name="RequiredTech" value="" />
       <Property name="Icon" value="TkModelResource.xml">
         <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/NOTIFICATIONS/ICON.DISTRESSSIGNAL.DDS" />
+      </Property>
+    </Property>
+    <Property value="GcVehicleScanTableEntry.xml">
+      <Property name="ScanList">
+        <Property value="NMSString0x10.xml">
+          <Property name="Value" value="PORTAL" />
+        </Property>
+      </Property>
+      <Property name="Name" value="BUILDING_PORTAL_L" />
+      <Property name="RequiredTech" value="" />
+      <Property name="Icon" value="TkModelResource.xml">
+        <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/NOTIFICATIONS/ICON.RUNE.DDS" />
       </Property>
     </Property>
     <Property value="GcVehicleScanTableEntry.xml">
@@ -20,7 +32,7 @@
         </Property>
       </Property>
       <Property name="Name" value="BUILDING_FACTORY_L" />
-      <Property name="RequiredTech" value="VEHICLE_SCAN2" />
+      <Property name="RequiredTech" value="" />
       <Property name="Icon" value="TkModelResource.xml">
         <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/NOTIFICATIONS/ICON.FACTORY.DDS" />
       </Property>
@@ -35,7 +47,7 @@
         </Property>
       </Property>
       <Property name="Name" value="BUILDING_SHOP_L" />
-      <Property name="RequiredTech" value="VEHICLE_SCAN2" />
+      <Property name="RequiredTech" value="" />
       <Property name="Icon" value="TkModelResource.xml">
         <Property name="Filename" value="TEXTURES/UI/FRONTEND/ICONS/NOTIFICATIONS/ICON.BUILDING.DDS" />
       </Property>

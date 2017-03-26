@@ -6471,7 +6471,7 @@
       <Property name="GlobalLimit" value="0" />
       <Property name="SystemLimit" value="0" />
       <Property name="PlanetLimit" value="0" />
-      <Property name="RegionLimit" value="5" />
+      <Property name="RegionLimit" value="20" />
       <Property name="PerBaseLimits">
         <Property value="0" />
         <Property value="0" />
@@ -8252,9 +8252,9 @@
       <Property name="CanChangeMaterial" value="False" />
     </Property>
     <Property value="GcBaseBuildingEntry.xml">
-      <Property name="ID" value="BLDWALKER" />
+      <Property name="ID" value="BLDPOOP" />
       <Property name="Model" value="TkModelResource.xml">
-        <Property name="Filename" value="CUSTOMMODELS/SIMCITY5300/BLDWALKER.SCENE.MBIN" />
+        <Property name="Filename" value="MODELS/PLANETS/BIOMES/COMMON/INTERACTIVEFLORA/FARMPOOP.SCENE.MBIN" />
       </Property>
       <Property name="Type" value="GcBaseBuildingObjectTypes.xml">
         <Property name="BaseBuildingObjectType" value="Decoration" />
@@ -8266,7 +8266,7 @@
         <Property name="Biome" value="Lush" />
       </Property>
       <Property name="BuildableOnBase" value="True" />
-      <Property name="BuildableOnFreighter" value="False" />
+      <Property name="BuildableOnFreighter" value="True" />
       <Property name="BuildableOnPlanet" value="True" />
       <Property name="GlobalLimit" value="0" />
       <Property name="SystemLimit" value="0" />
@@ -8279,9 +8279,9 @@
       </Property>
       <Property name="CollisionRadiusFactor" value="1" />
       <Property name="CheckCollision" value="False" />
-      <Property name="CollidesWithPlayer" value="True" />
+      <Property name="CollidesWithPlayer" value="False" />
       <Property name="CanPlaceOnItself" value="True" />
-      <Property name="Group" value="VEHICLES" />
+      <Property name="Group" value="TERMINALS" />
       <Property name="DontStore" value="False" />
       <Property name="CameraRotDeg" value="0" />
       <Property name="ComplexityCost" value="0" />
@@ -8293,7 +8293,7 @@
       <Property name="RemoveIfNoNeighbours" value="False" />
       <Property name="ForceCheckPlayerInside" value="False" />
       <Property name="PlayerInsideRadiusFactor" value="1" />
-      <Property name="CanChangeColour" value="True" />
+      <Property name="CanChangeColour" value="False" />
       <Property name="CanChangeMaterial" value="False" />
     </Property>
     <Property value="GcBaseBuildingEntry.xml">

@@ -60,7 +60,7 @@
   <Property name="Samplers">
     <Property value="TkMaterialSampler.xml">
       <Property name="Name" value="gDiffuseMap" />
-      <Property name="Map" value="CUSTOMTEXTURES\ORIGINS\NADALEESMOD\BLUESPHERE.DDS" />
+      <Property name="Map" value="CUSTOMTEXTURES\NADALEESMOD\BLUESPHERE.DDS" />
       <Property name="IsCube" value="False" />
       <Property name="UseCompression" value="True" />
       <Property name="UseMipMaps" value="True" />

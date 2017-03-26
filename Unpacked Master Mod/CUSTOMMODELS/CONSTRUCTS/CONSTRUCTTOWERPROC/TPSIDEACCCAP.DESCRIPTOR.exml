@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Data template="TkModelDescriptorList">
+  <Property name="List">
+    <Property value="TkResourceDescriptorList.xml">
+      <Property name="TypeId" value="_SIDECAP_" />
+      <Property name="Descriptors">
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_SIDECAP_0" />
+          <Property name="Name" value="_SIDECAP_0" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPSIDEACCCAPA.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_SIDECAP_1" />
+          <Property name="Name" value="_SIDECAP_1" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPSIDEACCCAPB.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_SIDECAP_2" />
+          <Property name="Name" value="_SIDECAP_2" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPSIDEACCCAPC.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+        <Property value="TkResourceDescriptorData.xml">
+          <Property name="Id" value="_SIDECAP_3" />
+          <Property name="Name" value="_SIDECAP_3" />
+          <Property name="ReferencePaths">
+            <Property value="NMSString0x80.xml">
+              <Property name="Value" value="CUSTOMMODELS\CONSTRUCTS\CONSTRUCTTOWERPROC\TPSIDEACCCAPD.SCENE.MBIN" />
+            </Property>
+          </Property>
+          <Property name="Chance" value="0" />
+          <Property name="Children" />
+        </Property>
+      </Property>
+    </Property>
+  </Property>
+</Data>

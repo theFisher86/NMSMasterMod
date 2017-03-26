@@ -154,18 +154,18 @@
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="SCITRADE2" />
     </Property>
-    <Property value="NMSString0x10.xml">
+    <!--Property value="NMSString0x10.xml">
       <Property name="Value" value="BLDPOOP" />
-    </Property>
+    </Property-->
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="TRADTRADE2" />
     </Property>
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="WARTRADE2" />
     </Property>
-    <Property value="NMSString0x10.xml">
+    <!--Property value="NMSString0x10.xml">
       <Property name="Value" value="BLDWTECHSTAT" />
-    </Property>
+    </Property-->
     <Property value="NMSString0x10.xml">
       <Property name="Value" value="BLDWAYPOINTWARRI" />
     </Property>

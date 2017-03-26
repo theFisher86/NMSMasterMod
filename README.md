@@ -31,8 +31,6 @@ I am working on a big project currently that will require NMSMasterMod as a depe
    - New models and buildings with a some lore to go along with them!
  * [Efficient Harvesters](https://nomansskymods.com/mods/efficient-harvesters/) by homesick
    - Reduces the cost of harvesters and increases their output making them more useful.  They were a little too much work with not enough payoff in vanilla.
- * [Active Space](https://nomansskymods.com/mods/active-space/) by jaszhix
-   - Increases the number of ships involved in space battles and just makes outerspace more interesting.
    
 # Recommended Mods
  * A flight mechanics overhaul mod
